@@ -4,7 +4,7 @@ const students = [
   { name: "Sergio Cardona", role: "Desarrollo frontend" },
   { name: "Edgar David Perez", role: "Integración y pruebas" },
   { name: "Juliana Cardenas", role: "Cloud / DevOps" },
-   { name: "Willingon", role: "Supervisor" }
+   { name: "Willingon Londoño", role: "Supervisor" }
 ];
 
 function App() {
