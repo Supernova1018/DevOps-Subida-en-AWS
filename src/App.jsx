@@ -1,9 +1,10 @@
 import { useState } from "react";
 
 const students = [
-  { name: "Estudiante 1", role: "Desarrollo frontend" },
-  { name: "Estudiante 2", role: "Integración y pruebas" },
-  { name: "Estudiante 3", role: "Cloud / DevOps" },
+  { name: "Sergio Cardona", role: "Desarrollo frontend" },
+  { name: "Edgar David Perez", role: "Integración y pruebas" },
+  { name: "Juliana Cardenas", role: "Cloud / DevOps" },
+   { name: "Willingon", role: "Supervisor" }
 ];
 
 function App() {
@@ -69,7 +70,7 @@ function App() {
         </nav>
         <div className="hero-content">
           <div className="eyebrow">Despliegue continuo</div>
-          <h1>Del commit a una aplicación web publicada.</h1>
+          <h1>Del commit a una aplicación web publicada para farmear aura.</h1>
           <p className="lead">Aplicación demostrativa del laboratorio: GitHub recibe el código, AWS Amplify ejecuta el build y publica automáticamente la versión de producción de nuestra aplicación React.</p>
           <div className="actions">
             <button className="button button-primary" onClick={() => setDeployed(true)}>Simular despliegue</button>
